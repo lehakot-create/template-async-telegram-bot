@@ -6,3 +6,8 @@
 2. создаем в корневой папке файле .env и кладем туда API_TOKEN="ваш токен"
 3. устанавливаем зависимости pip install -r requirements.txt
 4. запускаем python bot.py
+
+
+Запустить в контейнере
+docker build -t bot .
+docker run --rm -d bot
