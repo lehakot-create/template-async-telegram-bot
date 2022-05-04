@@ -10,6 +10,7 @@
 
 Запустить в контейнере
 docker build -t bot .
+
 docker run --rm -d bot
 
 
