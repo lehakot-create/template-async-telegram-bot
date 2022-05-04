@@ -11,3 +11,6 @@
 Запустить в контейнере
 docker build -t bot .
 docker run --rm -d bot
+
+
+docker run --rm -d -v pwd:/my_bot/ bot
